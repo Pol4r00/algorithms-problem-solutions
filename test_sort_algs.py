@@ -16,12 +16,12 @@ print(f"{a2} (Insertion sorted)")
 print("-------")
 
 a3 = [6, 2, 1, 9, 8, 7]
-selection_sort(a3)
+#selection_sort(a3)
 print(f"{a3} (Selection sorted)")
 
 print("-------")
 
-a4 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-quick_sort(a4, 0, len(a4))
-print(f"{a4} (Quick sorted)")
+a4 = [8, 2, 4, 7, 1, 3, 9, 6, 5]
+quick_sort(a3, 0, len(a3))
+print(f"{a3} (Quick sorted)") 
 
